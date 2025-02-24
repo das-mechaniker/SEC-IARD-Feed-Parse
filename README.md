@@ -3,6 +3,8 @@
 
 A robust Python application that downloads, processes, and analyzes SEC Investment Adviser XML feed data, converting complex XML structures into easily analyzable CSV format.
 
+The link for XML endpoint can not be dynamically generated. You must get the updated link from (Here)[https://adviserinfo.sec.gov/compilation#:~:text=in%20XML%20format.-,INVESTMENT%20ADVISER%20REPRESENTATIVES%20REPORT,-Report%20as%20of]
+
 ## Overview
 
 This application automates the process of retrieving and processing SEC Investment Adviser data by:
@@ -57,11 +59,6 @@ pandas
 requests
 ```
 
-## Installation
-
-1. Fork this Repl or clone the repository in Replit
-2. The required dependencies will be automatically installed based on the pyproject.toml file
-
 ## Usage
 
 ### Basic Usage
@@ -102,15 +99,7 @@ The application includes comprehensive error handling and logging:
 - Requires stable internet connection for initial data download
 - Processing time depends on the size of XML feed
 - Memory usage scales with input data size
-
-## Contributing
-
-To contribute to this project:
-1. Fork the Repl
-2. Create a new feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a merge request
+- Link for XML endpoint can not be dynamically generated
 
 ## License
 
