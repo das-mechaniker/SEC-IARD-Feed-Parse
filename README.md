@@ -3,7 +3,7 @@
 
 A robust Python application that downloads, processes, and analyzes SEC Investment Adviser XML feed data, converting complex XML structures into easily analyzable CSV format.
 
-The link for XML endpoint can not be dynamically generated. You must get the updated link from [Here](https://adviserinfo.sec.gov/compilation#:~:text=in%20XML%20format.-,INVESTMENT%20ADVISER%20REPRESENTATIVES%20REPORT,-Report%20as%20of)
+The link for XML endpoint can not be dynamically generated. You must get the updated link from [the SEC website.](https://adviserinfo.sec.gov/compilation#:~:text=in%20XML%20format.-,INVESTMENT%20ADVISER%20REPRESENTATIVES%20REPORT,-Report%20as%20of)
 
 ## Overview
 
